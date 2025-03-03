@@ -60,6 +60,29 @@ GeoServer sekarang berjalan di **`http://localhost:8080/geoserver`** 🎉
 
 ---
 
+## 📂 (OPSIONAL)
+Karena beberapa direktori dan file dikecualikan dalam `.gitignore`, lakukan langkah berikut setelah melakukan clone repository:
+
+1️⃣ **Buat ulang folder yang hilang:**
+```sh
+mkdir -p geoserver/logs geoserver/temp geoserver/webapps
+```
+
+2️⃣ **(Opsional) Unduh ulang `geoserver.war` jika diperlukan:**
+```sh
+wget -O geoserver/webapps/geoserver.war https://sourceforge.net/projects/geoserver/files/GeoServer/2.26.2/geoserver-2.26.2-war.zip
+```
+
+3️⃣ **Jalankan kembali GeoServer seperti biasa:**
+```sh
+cd geoserver/bin
+./startup.sh
+```
+
+Dengan langkah-langkah ini, GeoServer dapat berjalan dengan normal meskipun beberapa file dan folder telah dikecualikan dalam repository. 🚀
+
+---
+
 ## 📜 Lisensi
 Kode dalam repository ini dilisensikan di bawah **MIT License**.
 
