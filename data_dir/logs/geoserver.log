@@ -429,3 +429,2437 @@
 03 Mar 08:04:14 CONFIG [geoserver.security] - Start reloading user/groups for service named default
 03 Mar 08:04:14 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
 03 Mar 08:07:03 INFO   [geoserver.security] - Strong cryptography is available
+03 Mar 08:53:35 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+03 Mar 08:53:35 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+03 Mar 08:53:35 CONFIG [gwc.layer] - Loaded 28 tile layers in 859.7 ms
+03 Mar 08:53:36 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+03 Mar 08:53:36 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+03 Mar 08:53:36 CONFIG [gwc.layer] - Loaded 28 tile layers in 86.58 ms
+03 Mar 08:53:37 WARN   [support.DisposableBeanAdapter] - Custom destroy method 'destroy' on bean with name 'gwcMemoryBlobStore' threw an exception: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@674c337a[Not completed, task = org.geowebcache.storage.blobstore.memory.MemoryBlobStore$BlobStoreTask@17fa9d99] rejected from java.util.concurrent.ThreadPoolExecutor@2a91918b[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+03 Mar 08:53:37 INFO   [geoserver.logging] - Beginning GeoServer cleanup sequence
+03 Mar 09:54:11 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+03 Mar 09:54:15 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/var/www/html/geoportal-dev/data_dir/gwc'.
+03 Mar 09:54:15 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+03 Mar 09:54:15 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+03 Mar 09:54:16 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loading catalog /var/www/html/geoportal-dev/data_dir
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'cite_lakes'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'burg'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'pophatch'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'simple_streams'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'simple_roads'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'dem'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'capitals'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'polygon'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'poly_landmarks'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'tiger_roads'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'generic'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'rain'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'green'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'restricted'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'raster'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'grass'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'line'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'giant_polygon'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'point'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'poi'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'population'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded default workspace 'ne'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded workspace 'tiger'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded workspace 'sde'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded workspace 'nurc'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded workspace 'ne'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'populated_places'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'coastline'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'countries'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'disputed'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'countries_mapcolor9'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded style 'boundary_lines'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded workspace 'topp'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded workspace 'it.geosolutions'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded workspace 'cite'
+03 Mar 09:54:16 CONFIG [org.geoserver] - Loaded workspace 'sf'
+03 Mar 09:54:18 CONFIG [org.geoserver] - Loaded data store 'nyc', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded layer 'poly_landmarks'
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded feature type 'poi', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded layer 'poi'
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded feature type 'giant_polygon', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded layer 'giant_polygon'
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded feature type 'tiger_roads', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded layer 'tiger_roads'
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded data store 'states_shapefile', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded feature type 'states', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded layer 'states'
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded data store 'taz_shapes', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded layer 'tasmania_roads'
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded layer 'tasmania_cities'
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded layer 'tasmania_water_bodies'
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded layer 'Arc_Sample'
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded coverage 'Img_Sample', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded layer 'Img_Sample'
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded coverage store 'mosaic', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded coverage 'mosaic', enabled
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded layer 'mosaic'
+03 Mar 09:54:21 CONFIG [org.geoserver] - Loaded coverage store 'img_sample2', enabled
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded coverage 'Pk50095', enabled
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded layer 'Pk50095'
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded data store 'NaturalEarth', enabled
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded feature type 'countries', enabled
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded layer 'countries'
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded feature type 'coastlines', enabled
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded layer 'coastlines'
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded feature type 'populated_places', enabled
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded layer 'populated_places'
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded feature type 'disputed_areas', enabled
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded layer 'disputed_areas'
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded feature type 'boundary_lines', enabled
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded layer 'boundary_lines'
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded layer group 'world'
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded coverage store 'sfdem', enabled
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded coverage 'sfdem', enabled
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded layer 'sfdem'
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded data store 'sf', enabled
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded feature type 'archsites', enabled
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded layer 'archsites'
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded feature type 'bugsites', enabled
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded layer 'bugsites'
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded feature type 'streams', enabled
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded layer 'streams'
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded feature type 'roads', enabled
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded layer 'roads'
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded feature type 'restricted', enabled
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded layer 'restricted'
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded layer group 'tasmania'
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded layer group 'tiger-ny'
+03 Mar 09:54:22 CONFIG [org.geoserver] - Loaded layer group 'spearfish'
+03 Mar 09:54:22 CONFIG [org.geoserver] - Read catalog in 6.332 s
+03 Mar 09:54:22 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+03 Mar 09:54:22 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+03 Mar 09:54:22 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+03 Mar 09:54:22 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+03 Mar 09:54:22 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+03 Mar 09:54:22 CONFIG [gwc.layer] - Loaded 28 tile layers in 106.6 ms
+03 Mar 09:54:22 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+03 Mar 09:54:23 CONFIG [storage.DefaultStorageFinder] - Found system environment variableGEOSERVER_DATA_DIR set to /var/www/html/geoportal-dev/data_dir, using it as the default prefix.
+03 Mar 09:54:23 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+03 Mar 09:54:23 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+03 Mar 09:54:23 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+03 Mar 09:54:23 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl--3ef31051:182c1e8b194:-8000', enabled
+03 Mar 09:54:23 CONFIG [org.geoserver] - Loaded service 'wcs', enabled
+03 Mar 09:54:23 CONFIG [org.geoserver] - Loaded service 'wfs', enabled
+03 Mar 09:54:23 CONFIG [org.geoserver] - Loaded service 'wms', enabled
+03 Mar 09:54:24 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl-1c443fee:182c0f3f209:-7f98', enabled
+03 Mar 09:54:24 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl-1c443fee:182c0f3f209:-7f96', enabled
+03 Mar 09:54:24 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl-1c443fee:182c0f3f209:-7f97', enabled
+03 Mar 09:54:24 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl-1c443fee:182c0f3f209:-7f99', enabled
+03 Mar 09:54:24 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+03 Mar 09:54:24 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/var/www/html/geoportal-dev/data_dir/gwc'.
+03 Mar 09:54:24 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/var/www/html/geoportal-dev/data_dir/gwc'.
+03 Mar 09:54:24 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+03 Mar 09:54:24 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+03 Mar 09:54:31 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+03 Mar 09:54:31 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+03 Mar 09:54:32 WARN   [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+03 Mar 09:54:41 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+03 Mar 09:54:41 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+03 Mar 09:54:41 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+03 Mar 09:54:41 CONFIG [diskquota.DiskQuotaMonitor] - 28 layers attached to global quota 500.0 MB
+03 Mar 09:54:41 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+03 Mar 09:54:42 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+03 Mar 09:54:42 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+03 Mar 09:54:53 INFO   [geoserver.security] - Strong cryptography is available
+03 Mar 09:54:53 INFO   [geoserver.security] - Strong cryptography is available
+04 Mar 07:45:21 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+04 Mar 07:45:31 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/var/www/html/geoportal-dev/data_dir/gwc'.
+04 Mar 07:45:33 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+04 Mar 07:45:33 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+04 Mar 07:45:33 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+04 Mar 07:45:33 CONFIG [org.geoserver] - Loading catalog /var/www/html/geoportal-dev/data_dir
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'burg'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'cite_lakes'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'pophatch'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'simple_roads'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'dem'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'simple_streams'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'capitals'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'poly_landmarks'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'rain'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'tiger_roads'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'generic'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'polygon'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'green'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'grass'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'line'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'restricted'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'giant_polygon'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'point'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'raster'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'poi'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded style 'population'
+04 Mar 07:45:35 CONFIG [org.geoserver] - Loaded default workspace 'ne'
+04 Mar 07:45:36 CONFIG [org.geoserver] - Loaded workspace 'tiger'
+04 Mar 07:45:36 CONFIG [org.geoserver] - Loaded workspace 'sde'
+04 Mar 07:45:36 CONFIG [org.geoserver] - Loaded workspace 'it.geosolutions'
+04 Mar 07:45:36 CONFIG [org.geoserver] - Loaded workspace 'nurc'
+04 Mar 07:45:36 CONFIG [org.geoserver] - Loaded workspace 'topp'
+04 Mar 07:45:36 CONFIG [org.geoserver] - Loaded workspace 'ne'
+04 Mar 07:45:36 CONFIG [org.geoserver] - Loaded style 'countries'
+04 Mar 07:45:36 CONFIG [org.geoserver] - Loaded style 'populated_places'
+04 Mar 07:45:36 CONFIG [org.geoserver] - Loaded style 'coastline'
+04 Mar 07:45:36 CONFIG [org.geoserver] - Loaded style 'disputed'
+04 Mar 07:45:36 CONFIG [org.geoserver] - Loaded style 'countries_mapcolor9'
+04 Mar 07:45:36 CONFIG [org.geoserver] - Loaded style 'boundary_lines'
+04 Mar 07:45:36 CONFIG [org.geoserver] - Loaded workspace 'sf'
+04 Mar 07:45:36 CONFIG [org.geoserver] - Loaded workspace 'cite'
+04 Mar 07:45:44 CONFIG [org.geoserver] - Loaded data store 'nyc', enabled
+04 Mar 07:45:54 CONFIG [org.geoserver] - Loaded feature type 'tiger_roads', enabled
+04 Mar 07:45:54 CONFIG [org.geoserver] - Loaded layer 'tiger_roads'
+04 Mar 07:45:54 CONFIG [org.geoserver] - Loaded feature type 'poi', enabled
+04 Mar 07:45:54 CONFIG [org.geoserver] - Loaded layer 'poi'
+04 Mar 07:45:54 CONFIG [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
+04 Mar 07:45:54 CONFIG [org.geoserver] - Loaded layer 'poly_landmarks'
+04 Mar 07:45:54 CONFIG [org.geoserver] - Loaded feature type 'giant_polygon', enabled
+04 Mar 07:45:54 CONFIG [org.geoserver] - Loaded layer 'giant_polygon'
+04 Mar 07:45:54 CONFIG [org.geoserver] - Loaded data store 'states_shapefile', enabled
+04 Mar 07:45:54 CONFIG [org.geoserver] - Loaded feature type 'states', enabled
+04 Mar 07:45:54 CONFIG [org.geoserver] - Loaded layer 'states'
+04 Mar 07:45:54 CONFIG [org.geoserver] - Loaded data store 'taz_shapes', enabled
+04 Mar 07:45:54 CONFIG [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
+04 Mar 07:45:54 CONFIG [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
+04 Mar 07:45:54 CONFIG [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
+04 Mar 07:45:54 CONFIG [org.geoserver] - Loaded layer 'tasmania_roads'
+04 Mar 07:45:54 CONFIG [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
+04 Mar 07:45:55 CONFIG [org.geoserver] - Loaded layer 'tasmania_water_bodies'
+04 Mar 07:45:55 CONFIG [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
+04 Mar 07:45:55 CONFIG [org.geoserver] - Loaded layer 'tasmania_cities'
+04 Mar 07:45:55 CONFIG [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
+04 Mar 07:45:55 CONFIG [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
+04 Mar 07:45:55 CONFIG [org.geoserver] - Loaded layer 'Arc_Sample'
+04 Mar 07:45:55 CONFIG [org.geoserver] - Loaded coverage store 'mosaic', enabled
+04 Mar 07:45:55 CONFIG [org.geoserver] - Loaded coverage 'mosaic', enabled
+04 Mar 07:45:55 CONFIG [org.geoserver] - Loaded layer 'mosaic'
+04 Mar 07:45:55 CONFIG [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
+04 Mar 07:45:55 CONFIG [org.geoserver] - Loaded coverage 'Img_Sample', enabled
+04 Mar 07:45:55 CONFIG [org.geoserver] - Loaded layer 'Img_Sample'
+04 Mar 07:45:55 CONFIG [org.geoserver] - Loaded coverage store 'img_sample2', enabled
+04 Mar 07:45:57 CONFIG [org.geoserver] - Loaded coverage 'Pk50095', enabled
+04 Mar 07:45:57 CONFIG [org.geoserver] - Loaded layer 'Pk50095'
+04 Mar 07:45:57 CONFIG [org.geoserver] - Loaded data store 'NaturalEarth', enabled
+04 Mar 07:45:57 CONFIG [org.geoserver] - Loaded feature type 'countries', enabled
+04 Mar 07:45:57 CONFIG [org.geoserver] - Loaded layer 'countries'
+04 Mar 07:45:57 CONFIG [org.geoserver] - Loaded feature type 'populated_places', enabled
+04 Mar 07:45:57 CONFIG [org.geoserver] - Loaded layer 'populated_places'
+04 Mar 07:45:57 CONFIG [org.geoserver] - Loaded feature type 'boundary_lines', enabled
+04 Mar 07:45:57 CONFIG [org.geoserver] - Loaded layer 'boundary_lines'
+04 Mar 07:45:57 CONFIG [org.geoserver] - Loaded feature type 'disputed_areas', enabled
+04 Mar 07:45:57 CONFIG [org.geoserver] - Loaded layer 'disputed_areas'
+04 Mar 07:45:57 CONFIG [org.geoserver] - Loaded feature type 'coastlines', enabled
+04 Mar 07:45:57 CONFIG [org.geoserver] - Loaded layer 'coastlines'
+04 Mar 07:45:57 CONFIG [org.geoserver] - Loaded layer group 'world'
+04 Mar 07:45:58 CONFIG [org.geoserver] - Loaded coverage store 'sfdem', enabled
+04 Mar 07:45:58 CONFIG [org.geoserver] - Loaded coverage 'sfdem', enabled
+04 Mar 07:45:58 CONFIG [org.geoserver] - Loaded layer 'sfdem'
+04 Mar 07:45:58 CONFIG [org.geoserver] - Loaded data store 'sf', enabled
+04 Mar 07:45:58 CONFIG [org.geoserver] - Loaded feature type 'bugsites', enabled
+04 Mar 07:45:58 CONFIG [org.geoserver] - Loaded layer 'bugsites'
+04 Mar 07:45:58 CONFIG [org.geoserver] - Loaded feature type 'restricted', enabled
+04 Mar 07:45:58 CONFIG [org.geoserver] - Loaded layer 'restricted'
+04 Mar 07:45:58 CONFIG [org.geoserver] - Loaded feature type 'archsites', enabled
+04 Mar 07:45:58 CONFIG [org.geoserver] - Loaded layer 'archsites'
+04 Mar 07:45:58 CONFIG [org.geoserver] - Loaded feature type 'roads', enabled
+04 Mar 07:45:58 CONFIG [org.geoserver] - Loaded layer 'roads'
+04 Mar 07:45:58 CONFIG [org.geoserver] - Loaded feature type 'streams', enabled
+04 Mar 07:45:58 CONFIG [org.geoserver] - Loaded layer 'streams'
+04 Mar 07:45:58 CONFIG [org.geoserver] - Loaded layer group 'tasmania'
+04 Mar 07:45:58 CONFIG [org.geoserver] - Loaded layer group 'spearfish'
+04 Mar 07:45:58 CONFIG [org.geoserver] - Loaded layer group 'tiger-ny'
+04 Mar 07:45:59 CONFIG [org.geoserver] - Read catalog in 24.88 s
+04 Mar 07:46:00 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+04 Mar 07:46:00 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+04 Mar 07:46:00 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+04 Mar 07:46:00 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+04 Mar 07:46:00 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+04 Mar 07:46:01 CONFIG [gwc.layer] - Loaded 28 tile layers in 486.3 ms
+04 Mar 07:46:01 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+04 Mar 07:46:01 CONFIG [storage.DefaultStorageFinder] - Found system environment variableGEOSERVER_DATA_DIR set to /var/www/html/geoportal-dev/data_dir, using it as the default prefix.
+04 Mar 07:46:02 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+04 Mar 07:46:02 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+04 Mar 07:46:02 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+04 Mar 07:46:03 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl--3ef31051:182c1e8b194:-8000', enabled
+04 Mar 07:46:03 CONFIG [org.geoserver] - Loaded service 'wcs', enabled
+04 Mar 07:46:03 CONFIG [org.geoserver] - Loaded service 'wfs', enabled
+04 Mar 07:46:03 CONFIG [org.geoserver] - Loaded service 'wms', enabled
+04 Mar 07:46:03 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl-1c443fee:182c0f3f209:-7f98', enabled
+04 Mar 07:46:03 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl-1c443fee:182c0f3f209:-7f96', enabled
+04 Mar 07:46:03 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl-1c443fee:182c0f3f209:-7f97', enabled
+04 Mar 07:46:03 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl-1c443fee:182c0f3f209:-7f99', enabled
+04 Mar 07:46:04 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+04 Mar 07:46:04 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/var/www/html/geoportal-dev/data_dir/gwc'.
+04 Mar 07:46:04 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/var/www/html/geoportal-dev/data_dir/gwc'.
+04 Mar 07:46:04 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+04 Mar 07:46:04 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+04 Mar 07:46:17 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+04 Mar 07:46:17 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+04 Mar 07:46:21 WARN   [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+04 Mar 07:46:35 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+04 Mar 07:46:35 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+04 Mar 07:46:35 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+04 Mar 07:46:35 CONFIG [diskquota.DiskQuotaMonitor] - 28 layers attached to global quota 500.0 MB
+04 Mar 07:46:35 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+04 Mar 07:46:37 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+04 Mar 07:46:37 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+04 Mar 07:47:11 INFO   [geoserver.security] - Strong cryptography is available
+04 Mar 08:31:52 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+04 Mar 08:31:52 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = ne
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+04 Mar 08:32:24 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+04 Mar 08:32:25 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = ne
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+04 Mar 08:32:42 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+04 Mar 08:32:42 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = ne
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+04 Mar 08:32:42 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+04 Mar 08:32:42 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = ne
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+04 Mar 08:32:43 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+04 Mar 08:32:43 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = ne
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+04 Mar 08:32:45 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+04 Mar 08:32:45 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = ne
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+04 Mar 08:32:45 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+04 Mar 08:32:45 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = ne
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+04 Mar 08:32:45 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+04 Mar 08:32:45 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = ne
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+04 Mar 08:33:20 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+04 Mar 08:33:20 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = ne
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+04 Mar 08:33:47 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+04 Mar 08:33:47 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = ne
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+04 Mar 08:33:48 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+04 Mar 08:33:48 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = ne
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+04 Mar 08:33:48 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+04 Mar 08:33:48 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = ne
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+04 Mar 08:39:50 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+04 Mar 08:39:50 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = ne
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+04 Mar 08:40:32 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+04 Mar 08:40:32 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = ne
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+04 Mar 08:43:13 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+04 Mar 08:43:13 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = null
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+04 Mar 09:02:06 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+04 Mar 09:02:06 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = null
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+04 Mar 09:02:57 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+04 Mar 09:02:57 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = null
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+04 Mar 09:03:47 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+04 Mar 09:03:47 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+04 Mar 09:03:48 CONFIG [gwc.layer] - Loaded 28 tile layers in 1.295 s
+04 Mar 09:03:49 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+04 Mar 09:03:49 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+04 Mar 09:03:49 CONFIG [gwc.layer] - Loaded 28 tile layers in 151.2 ms
+04 Mar 09:03:50 WARN   [support.DisposableBeanAdapter] - Custom destroy method 'destroy' on bean with name 'gwcMemoryBlobStore' threw an exception: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@12f8b774[Not completed, task = org.geowebcache.storage.blobstore.memory.MemoryBlobStore$BlobStoreTask@270cb62b] rejected from java.util.concurrent.ThreadPoolExecutor@e06ffb8[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+04 Mar 09:03:50 INFO   [geoserver.logging] - Beginning GeoServer cleanup sequence
+04 Mar 09:04:40 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+04 Mar 09:04:44 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/var/www/html/geoportal-dev/data_dir/gwc'.
+04 Mar 09:04:44 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+04 Mar 09:04:44 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+04 Mar 09:04:44 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+04 Mar 09:04:44 CONFIG [org.geoserver] - Loading catalog /var/www/html/geoportal-dev/data_dir
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'cite_lakes'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'burg'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'pophatch'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'simple_roads'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'simple_streams'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'dem'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'polygon'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'capitals'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'poly_landmarks'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'generic'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'tiger_roads'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'restricted'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'green'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'line'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'rain'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'grass'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'raster'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'giant_polygon'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'poi'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'population'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'point'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded default workspace 'ne'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded workspace 'it.geosolutions'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded workspace 'sde'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded workspace 'tiger'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded workspace 'ne'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'countries'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'populated_places'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'coastline'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'boundary_lines'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'countries_mapcolor9'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded style 'disputed'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded workspace 'nurc'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded workspace 'topp'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded workspace 'sf'
+04 Mar 09:04:45 CONFIG [org.geoserver] - Loaded workspace 'cite'
+04 Mar 09:04:46 CONFIG [org.geoserver] - Loaded data store 'nyc', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded feature type 'poi', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded layer 'poi'
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded feature type 'tiger_roads', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded layer 'tiger_roads'
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded layer 'poly_landmarks'
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded feature type 'giant_polygon', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded layer 'giant_polygon'
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded data store 'states_shapefile', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded feature type 'states', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded layer 'states'
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded data store 'taz_shapes', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded layer 'tasmania_cities'
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded layer 'tasmania_roads'
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded layer 'tasmania_water_bodies'
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded layer 'Arc_Sample'
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded coverage store 'mosaic', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded coverage 'mosaic', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded layer 'mosaic'
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded coverage 'Img_Sample', enabled
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded layer 'Img_Sample'
+04 Mar 09:04:48 CONFIG [org.geoserver] - Loaded coverage store 'img_sample2', enabled
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded coverage 'Pk50095', enabled
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded layer 'Pk50095'
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded data store 'NaturalEarth', enabled
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded feature type 'boundary_lines', enabled
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded layer 'boundary_lines'
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded feature type 'coastlines', enabled
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded layer 'coastlines'
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded feature type 'countries', enabled
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded layer 'countries'
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded feature type 'disputed_areas', enabled
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded layer 'disputed_areas'
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded feature type 'populated_places', enabled
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded layer 'populated_places'
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded layer group 'world'
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded coverage store 'sfdem', enabled
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded coverage 'sfdem', enabled
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded layer 'sfdem'
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded data store 'sf', enabled
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded feature type 'bugsites', enabled
+04 Mar 09:04:49 CONFIG [org.geoserver] - Loaded layer 'bugsites'
+04 Mar 09:04:50 CONFIG [org.geoserver] - Loaded feature type 'archsites', enabled
+04 Mar 09:04:50 CONFIG [org.geoserver] - Loaded layer 'archsites'
+04 Mar 09:04:50 CONFIG [org.geoserver] - Loaded feature type 'restricted', enabled
+04 Mar 09:04:50 CONFIG [org.geoserver] - Loaded layer 'restricted'
+04 Mar 09:04:50 CONFIG [org.geoserver] - Loaded feature type 'streams', enabled
+04 Mar 09:04:50 CONFIG [org.geoserver] - Loaded layer 'streams'
+04 Mar 09:04:50 CONFIG [org.geoserver] - Loaded feature type 'roads', enabled
+04 Mar 09:04:50 CONFIG [org.geoserver] - Loaded layer 'roads'
+04 Mar 09:04:50 CONFIG [org.geoserver] - Loaded layer group 'tasmania'
+04 Mar 09:04:50 CONFIG [org.geoserver] - Loaded layer group 'spearfish'
+04 Mar 09:04:50 CONFIG [org.geoserver] - Loaded layer group 'tiger-ny'
+04 Mar 09:04:50 CONFIG [org.geoserver] - Read catalog in 5.197 s
+04 Mar 09:04:50 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+04 Mar 09:04:50 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+04 Mar 09:04:50 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+04 Mar 09:04:50 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+04 Mar 09:04:50 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+04 Mar 09:04:50 CONFIG [gwc.layer] - Loaded 28 tile layers in 56.71 ms
+04 Mar 09:04:50 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+04 Mar 09:04:50 CONFIG [storage.DefaultStorageFinder] - Found system environment variableGEOSERVER_DATA_DIR set to /var/www/html/geoportal-dev/data_dir, using it as the default prefix.
+04 Mar 09:04:51 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+04 Mar 09:04:51 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+04 Mar 09:04:51 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+04 Mar 09:04:51 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl--3ef31051:182c1e8b194:-8000', enabled
+04 Mar 09:04:51 CONFIG [org.geoserver] - Loaded service 'wcs', enabled
+04 Mar 09:04:51 CONFIG [org.geoserver] - Loaded service 'wfs', enabled
+04 Mar 09:04:51 CONFIG [org.geoserver] - Loaded service 'wms', enabled
+04 Mar 09:04:51 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl-1c443fee:182c0f3f209:-7f98', enabled
+04 Mar 09:04:51 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl-1c443fee:182c0f3f209:-7f96', enabled
+04 Mar 09:04:51 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl-1c443fee:182c0f3f209:-7f97', enabled
+04 Mar 09:04:51 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl-1c443fee:182c0f3f209:-7f99', enabled
+04 Mar 09:04:51 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+04 Mar 09:04:51 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/var/www/html/geoportal-dev/data_dir/gwc'.
+04 Mar 09:04:51 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/var/www/html/geoportal-dev/data_dir/gwc'.
+04 Mar 09:04:51 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+04 Mar 09:04:51 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+04 Mar 09:05:01 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+04 Mar 09:05:02 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+04 Mar 09:05:05 WARN   [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+04 Mar 09:06:28 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+04 Mar 09:06:28 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+04 Mar 09:06:28 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+04 Mar 09:06:28 CONFIG [diskquota.DiskQuotaMonitor] - 28 layers attached to global quota 500.0 MB
+04 Mar 09:06:29 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+04 Mar 09:06:38 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+04 Mar 09:06:38 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+04 Mar 09:34:48 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+04 Mar 09:34:48 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+04 Mar 09:34:48 CONFIG [gwc.layer] - Loaded 28 tile layers in 440.3 ms
+04 Mar 09:34:49 WARN   [support.DisposableBeanAdapter] - Custom destroy method 'destroy' on bean with name 'gwcMemoryBlobStore' threw an exception: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@28d90604[Not completed, task = org.geowebcache.storage.blobstore.memory.MemoryBlobStore$BlobStoreTask@6c36535e] rejected from java.util.concurrent.ThreadPoolExecutor@20a1202e[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+04 Mar 09:34:49 INFO   [geoserver.logging] - Beginning GeoServer cleanup sequence
+04 Mar 09:35:21 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+04 Mar 09:35:30 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/var/www/html/geoportal-dev/data_dir/gwc'.
+04 Mar 09:35:32 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+04 Mar 09:35:32 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+04 Mar 09:35:33 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+04 Mar 09:35:33 CONFIG [org.geoserver] - Loading catalog /var/www/html/geoportal-dev/data_dir
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'cite_lakes'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'burg'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'pophatch'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'simple_streams'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'dem'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'capitals'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'poly_landmarks'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'simple_roads'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'polygon'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'rain'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'tiger_roads'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'green'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'generic'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'restricted'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'grass'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'raster'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'line'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'giant_polygon'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'point'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'poi'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'population'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded default workspace 'ne'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded workspace 'sde'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded workspace 'it.geosolutions'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded workspace 'tiger'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded workspace 'topp'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded workspace 'ne'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'populated_places'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'countries'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'coastline'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'disputed'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'boundary_lines'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded style 'countries_mapcolor9'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded workspace 'nurc'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded workspace 'cite'
+04 Mar 09:35:34 CONFIG [org.geoserver] - Loaded workspace 'sf'
+04 Mar 09:35:37 CONFIG [org.geoserver] - Loaded data store 'nyc', enabled
+04 Mar 09:35:40 CONFIG [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
+04 Mar 09:35:40 CONFIG [org.geoserver] - Loaded layer 'poly_landmarks'
+04 Mar 09:35:40 CONFIG [org.geoserver] - Loaded feature type 'giant_polygon', enabled
+04 Mar 09:35:40 CONFIG [org.geoserver] - Loaded layer 'giant_polygon'
+04 Mar 09:35:40 CONFIG [org.geoserver] - Loaded feature type 'tiger_roads', enabled
+04 Mar 09:35:40 CONFIG [org.geoserver] - Loaded layer 'tiger_roads'
+04 Mar 09:35:41 CONFIG [org.geoserver] - Loaded feature type 'poi', enabled
+04 Mar 09:35:41 CONFIG [org.geoserver] - Loaded layer 'poi'
+04 Mar 09:35:41 CONFIG [org.geoserver] - Loaded data store 'taz_shapes', enabled
+04 Mar 09:35:41 CONFIG [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
+04 Mar 09:35:41 CONFIG [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
+04 Mar 09:35:41 CONFIG [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
+04 Mar 09:35:41 CONFIG [org.geoserver] - Loaded layer 'tasmania_cities'
+04 Mar 09:35:41 CONFIG [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
+04 Mar 09:35:41 CONFIG [org.geoserver] - Loaded layer 'tasmania_roads'
+04 Mar 09:35:41 CONFIG [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
+04 Mar 09:35:41 CONFIG [org.geoserver] - Loaded layer 'tasmania_water_bodies'
+04 Mar 09:35:41 CONFIG [org.geoserver] - Loaded data store 'states_shapefile', enabled
+04 Mar 09:35:41 CONFIG [org.geoserver] - Loaded feature type 'states', enabled
+04 Mar 09:35:41 CONFIG [org.geoserver] - Loaded layer 'states'
+04 Mar 09:35:41 CONFIG [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
+04 Mar 09:35:41 CONFIG [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
+04 Mar 09:35:41 CONFIG [org.geoserver] - Loaded layer 'Arc_Sample'
+04 Mar 09:35:42 CONFIG [org.geoserver] - Loaded coverage store 'mosaic', enabled
+04 Mar 09:35:42 CONFIG [org.geoserver] - Loaded coverage 'mosaic', enabled
+04 Mar 09:35:42 CONFIG [org.geoserver] - Loaded layer 'mosaic'
+04 Mar 09:35:42 CONFIG [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
+04 Mar 09:35:42 CONFIG [org.geoserver] - Loaded coverage 'Img_Sample', enabled
+04 Mar 09:35:42 CONFIG [org.geoserver] - Loaded layer 'Img_Sample'
+04 Mar 09:35:42 CONFIG [org.geoserver] - Loaded coverage store 'img_sample2', enabled
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded coverage 'Pk50095', enabled
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded layer 'Pk50095'
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded data store 'NaturalEarth', enabled
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded feature type 'boundary_lines', enabled
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded layer 'boundary_lines'
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded feature type 'countries', enabled
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded layer 'countries'
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded feature type 'populated_places', enabled
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded layer 'populated_places'
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded feature type 'disputed_areas', enabled
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded layer 'disputed_areas'
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded feature type 'coastlines', enabled
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded layer 'coastlines'
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded layer group 'world'
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded data store 'sf', enabled
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded feature type 'restricted', enabled
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded layer 'restricted'
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded feature type 'bugsites', enabled
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded layer 'bugsites'
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded feature type 'archsites', enabled
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded layer 'archsites'
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded feature type 'roads', enabled
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded layer 'roads'
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded feature type 'streams', enabled
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded layer 'streams'
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded coverage store 'sfdem', enabled
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded coverage 'sfdem', enabled
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded layer 'sfdem'
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded layer group 'spearfish'
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded layer group 'tiger-ny'
+04 Mar 09:35:43 CONFIG [org.geoserver] - Loaded layer group 'tasmania'
+04 Mar 09:35:43 CONFIG [org.geoserver] - Read catalog in 10.14 s
+04 Mar 09:35:44 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+04 Mar 09:35:44 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+04 Mar 09:35:44 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+04 Mar 09:35:44 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+04 Mar 09:35:44 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+04 Mar 09:35:44 CONFIG [gwc.layer] - Loaded 28 tile layers in 69.76 ms
+04 Mar 09:35:44 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+04 Mar 09:35:44 CONFIG [storage.DefaultStorageFinder] - Found system environment variableGEOSERVER_DATA_DIR set to /var/www/html/geoportal-dev/data_dir, using it as the default prefix.
+04 Mar 09:35:44 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+04 Mar 09:35:44 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+04 Mar 09:35:44 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+04 Mar 09:35:45 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl--3ef31051:182c1e8b194:-8000', enabled
+04 Mar 09:35:45 CONFIG [org.geoserver] - Loaded service 'wcs', enabled
+04 Mar 09:35:45 CONFIG [org.geoserver] - Loaded service 'wfs', enabled
+04 Mar 09:35:45 CONFIG [org.geoserver] - Loaded service 'wms', enabled
+04 Mar 09:35:45 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl-1c443fee:182c0f3f209:-7f98', enabled
+04 Mar 09:35:45 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl-1c443fee:182c0f3f209:-7f96', enabled
+04 Mar 09:35:45 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl-1c443fee:182c0f3f209:-7f97', enabled
+04 Mar 09:35:45 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl-1c443fee:182c0f3f209:-7f99', enabled
+04 Mar 09:35:45 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+04 Mar 09:35:45 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/var/www/html/geoportal-dev/data_dir/gwc'.
+04 Mar 09:35:45 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/var/www/html/geoportal-dev/data_dir/gwc'.
+04 Mar 09:35:46 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+04 Mar 09:35:46 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+04 Mar 09:35:53 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+04 Mar 09:35:53 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+04 Mar 09:35:55 WARN   [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+04 Mar 09:36:09 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+04 Mar 09:36:09 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+04 Mar 09:36:09 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+04 Mar 09:36:09 CONFIG [diskquota.DiskQuotaMonitor] - 28 layers attached to global quota 500.0 MB
+04 Mar 09:36:09 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+04 Mar 09:36:10 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+04 Mar 09:36:10 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+04 Mar 10:21:47 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+04 Mar 10:21:47 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+04 Mar 10:21:52 CONFIG [gwc.layer] - Loaded 28 tile layers in 4.202 s
+04 Mar 10:21:55 WARN   [support.DisposableBeanAdapter] - Custom destroy method 'destroy' on bean with name 'gwcMemoryBlobStore' threw an exception: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@7746fdbe[Not completed, task = org.geowebcache.storage.blobstore.memory.MemoryBlobStore$BlobStoreTask@66371149] rejected from java.util.concurrent.ThreadPoolExecutor@32f9e146[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
+04 Mar 10:21:55 INFO   [geoserver.logging] - Beginning GeoServer cleanup sequence
+05 Mar 07:37:40 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+05 Mar 07:37:44 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/var/www/html/geoportal-dev/data_dir/gwc'.
+05 Mar 07:37:44 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+05 Mar 07:37:44 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+05 Mar 07:37:44 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+05 Mar 07:37:44 CONFIG [org.geoserver] - Loading catalog /var/www/html/geoportal-dev/data_dir
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'cite_lakes'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'burg'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'simple_streams'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'pophatch'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'simple_roads'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'polygon'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'dem'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'capitals'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'poly_landmarks'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'rain'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'generic'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'tiger_roads'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'grass'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'green'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'raster'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'giant_polygon'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'restricted'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'line'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'poi'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'population'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'point'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded default workspace 'ne'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded workspace 'tiger'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded workspace 'sde'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded workspace 'topp'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded workspace 'it.geosolutions'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded workspace 'ne'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'populated_places'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'countries'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'coastline'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'countries_mapcolor9'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'disputed'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded style 'boundary_lines'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded workspace 'sf'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded workspace 'nurc'
+05 Mar 07:37:45 CONFIG [org.geoserver] - Loaded workspace 'cite'
+05 Mar 07:37:46 CONFIG [org.geoserver] - Loaded data store 'nyc', enabled
+05 Mar 07:37:49 CONFIG [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
+05 Mar 07:37:49 CONFIG [org.geoserver] - Loaded layer 'poly_landmarks'
+05 Mar 07:37:49 CONFIG [org.geoserver] - Loaded feature type 'tiger_roads', enabled
+05 Mar 07:37:49 CONFIG [org.geoserver] - Loaded layer 'tiger_roads'
+05 Mar 07:37:49 CONFIG [org.geoserver] - Loaded feature type 'poi', enabled
+05 Mar 07:37:49 CONFIG [org.geoserver] - Loaded layer 'poi'
+05 Mar 07:37:49 CONFIG [org.geoserver] - Loaded feature type 'giant_polygon', enabled
+05 Mar 07:37:49 CONFIG [org.geoserver] - Loaded layer 'giant_polygon'
+05 Mar 07:37:50 CONFIG [org.geoserver] - Loaded data store 'taz_shapes', enabled
+05 Mar 07:37:50 CONFIG [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
+05 Mar 07:37:50 CONFIG [org.geoserver] - Loaded layer 'tasmania_roads'
+05 Mar 07:37:50 CONFIG [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
+05 Mar 07:37:50 CONFIG [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
+05 Mar 07:37:50 CONFIG [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
+05 Mar 07:37:50 CONFIG [org.geoserver] - Loaded layer 'tasmania_water_bodies'
+05 Mar 07:37:50 CONFIG [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
+05 Mar 07:37:50 CONFIG [org.geoserver] - Loaded layer 'tasmania_cities'
+05 Mar 07:37:50 CONFIG [org.geoserver] - Loaded data store 'states_shapefile', enabled
+05 Mar 07:37:50 CONFIG [org.geoserver] - Loaded feature type 'states', enabled
+05 Mar 07:37:50 CONFIG [org.geoserver] - Loaded layer 'states'
+05 Mar 07:37:50 CONFIG [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
+05 Mar 07:37:50 CONFIG [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
+05 Mar 07:37:50 CONFIG [org.geoserver] - Loaded layer 'Arc_Sample'
+05 Mar 07:37:50 CONFIG [org.geoserver] - Loaded coverage store 'img_sample2', enabled
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded coverage 'Pk50095', enabled
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded layer 'Pk50095'
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded coverage store 'mosaic', enabled
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded coverage 'mosaic', enabled
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded layer 'mosaic'
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded coverage 'Img_Sample', enabled
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded layer 'Img_Sample'
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded data store 'NaturalEarth', enabled
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded feature type 'coastlines', enabled
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded layer 'coastlines'
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded feature type 'populated_places', enabled
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded layer 'populated_places'
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded feature type 'countries', enabled
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded layer 'countries'
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded feature type 'boundary_lines', enabled
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded layer 'boundary_lines'
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded feature type 'disputed_areas', enabled
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded layer 'disputed_areas'
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded layer group 'world'
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded data store 'sf', enabled
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded feature type 'archsites', enabled
+05 Mar 07:37:52 CONFIG [org.geoserver] - Loaded layer 'archsites'
+05 Mar 07:37:53 CONFIG [org.geoserver] - Loaded feature type 'streams', enabled
+05 Mar 07:37:53 CONFIG [org.geoserver] - Loaded layer 'streams'
+05 Mar 07:37:53 CONFIG [org.geoserver] - Loaded feature type 'roads', enabled
+05 Mar 07:37:53 CONFIG [org.geoserver] - Loaded layer 'roads'
+05 Mar 07:37:53 CONFIG [org.geoserver] - Loaded feature type 'restricted', enabled
+05 Mar 07:37:53 CONFIG [org.geoserver] - Loaded layer 'restricted'
+05 Mar 07:37:53 CONFIG [org.geoserver] - Loaded feature type 'bugsites', enabled
+05 Mar 07:37:53 CONFIG [org.geoserver] - Loaded layer 'bugsites'
+05 Mar 07:37:53 CONFIG [org.geoserver] - Loaded coverage store 'sfdem', enabled
+05 Mar 07:37:53 CONFIG [org.geoserver] - Loaded coverage 'sfdem', enabled
+05 Mar 07:37:53 CONFIG [org.geoserver] - Loaded layer 'sfdem'
+05 Mar 07:37:53 CONFIG [org.geoserver] - Loaded layer group 'tiger-ny'
+05 Mar 07:37:53 CONFIG [org.geoserver] - Loaded layer group 'tasmania'
+05 Mar 07:37:53 CONFIG [org.geoserver] - Loaded layer group 'spearfish'
+05 Mar 07:37:53 CONFIG [org.geoserver] - Read catalog in 8.404 s
+05 Mar 07:37:53 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+05 Mar 07:37:53 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+05 Mar 07:37:54 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+05 Mar 07:37:54 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+05 Mar 07:37:54 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+05 Mar 07:37:54 CONFIG [gwc.layer] - Loaded 28 tile layers in 136.6 ms
+05 Mar 07:37:54 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+05 Mar 07:37:54 CONFIG [storage.DefaultStorageFinder] - Found system environment variableGEOSERVER_DATA_DIR set to /var/www/html/geoportal-dev/data_dir, using it as the default prefix.
+05 Mar 07:37:55 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+05 Mar 07:37:55 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+05 Mar 07:37:55 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+05 Mar 07:37:56 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl--3ef31051:182c1e8b194:-8000', enabled
+05 Mar 07:37:56 CONFIG [org.geoserver] - Loaded service 'wcs', enabled
+05 Mar 07:37:56 CONFIG [org.geoserver] - Loaded service 'wfs', enabled
+05 Mar 07:37:56 CONFIG [org.geoserver] - Loaded service 'wms', enabled
+05 Mar 07:37:56 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl-1c443fee:182c0f3f209:-7f98', enabled
+05 Mar 07:37:56 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl-1c443fee:182c0f3f209:-7f96', enabled
+05 Mar 07:37:56 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl-1c443fee:182c0f3f209:-7f97', enabled
+05 Mar 07:37:56 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl-1c443fee:182c0f3f209:-7f99', enabled
+05 Mar 07:37:56 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+05 Mar 07:37:56 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/var/www/html/geoportal-dev/data_dir/gwc'.
+05 Mar 07:37:56 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/var/www/html/geoportal-dev/data_dir/gwc'.
+05 Mar 07:37:56 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+05 Mar 07:37:56 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+05 Mar 07:38:02 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+05 Mar 07:38:02 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+05 Mar 07:38:03 WARN   [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+05 Mar 07:38:11 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+05 Mar 07:38:11 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+05 Mar 07:38:11 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+05 Mar 07:38:11 CONFIG [diskquota.DiskQuotaMonitor] - 28 layers attached to global quota 500.0 MB
+05 Mar 07:38:11 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+05 Mar 07:38:13 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+05 Mar 07:38:13 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+05 Mar 07:38:28 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:38:28 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = ne
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+05 Mar 07:40:07 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:40:07 INFO   [geoserver.wms] - 
+Request: getCapabilities
+	AcceptLanguages = null
+	BaseUrl = http://localhost:8080/geoserver/
+	Get = false
+	Namespace = null
+	RawKvp = {REQUEST=GetCapabilities, SERVICE=WMS}
+	Request = GetCapabilities
+	RequestCharset = null
+	RootLayerEnabled = null
+	UpdateSequence = null
+	Version = 1.3.0
+05 Mar 07:40:23 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:40:23 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:40:24 WARN   [operation.projection] - Possible use of "Popular Visualisation Pseudo Mercator" projection outside its valid area.
+Longitude 2147483287°00.0'W is out of range (±180°).
+05 Mar 07:40:24 WARN   [operation.projection] - Possible use of "Popular Visualisation Pseudo Mercator" projection outside its valid area.
+Longitude 2147483287°00.0'W is out of range (±180°).
+05 Mar 07:40:25 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@c32fb437]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:disputed_areas}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:disputed]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:40:25 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@42e80a94]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:boundary_lines}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:boundary_lines]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:40:49 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:40:49 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@93c2af6d]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:populated_places}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:populated_places]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:40:55 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:40:55 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@42e80a94]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:boundary_lines}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:boundary_lines]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:40:58 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:40:58 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@42e80a94]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:boundary_lines}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:boundary_lines]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:41:01 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:41:01 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@f4357d75]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:coastlines}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:coastline]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:41:04 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:41:04 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@f4357d75]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:coastlines}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:coastline]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:41:08 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:41:09 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@c32fb437]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:disputed_areas}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:disputed]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:41:12 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:41:12 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@c32fb437]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:disputed_areas}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:disputed]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:41:16 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:41:16 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@c32fb437]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:disputed_areas}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:disputed]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:41:17 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:41:18 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@4874930]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:countries}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:countries_mapcolor9]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:41:19 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:41:19 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@4874930]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:countries}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:countries_mapcolor9]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:41:22 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:41:22 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@4874930]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:countries}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:countries_mapcolor9]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:41:24 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:41:24 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@4874930]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:countries}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:countries_mapcolor9]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:41:26 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:41:26 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@4874930]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:countries}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:countries_mapcolor9]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:41:29 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:41:29 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@4874930]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:countries}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:countries_mapcolor9]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:41:32 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:41:32 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@4874930]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:countries}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:countries_mapcolor9]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:41:36 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:41:38 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@4874930, org.geoserver.wms.MapLayerInfo@c32fb437, org.geoserver.wms.MapLayerInfo@f4357d75, org.geoserver.wms.MapLayerInfo@42e80a94, org.geoserver.wms.MapLayerInfo@93c2af6d]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:world}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:countries], StyleImpl[ name=ne:disputed], StyleImpl[ name=ne:coastline], StyleImpl[ name=ne:boundary_lines], StyleImpl[ name=ne:populated_places]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:41:39 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:41:41 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@4874930, org.geoserver.wms.MapLayerInfo@c32fb437, org.geoserver.wms.MapLayerInfo@f4357d75, org.geoserver.wms.MapLayerInfo@42e80a94, org.geoserver.wms.MapLayerInfo@93c2af6d]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:world}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:countries], StyleImpl[ name=ne:disputed], StyleImpl[ name=ne:coastline], StyleImpl[ name=ne:boundary_lines], StyleImpl[ name=ne:populated_places]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480
+05 Mar 07:41:49 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+05 Mar 07:41:49 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8080/geoserver/
+	Bbox = SRSEnvelope[-2.0037508342789244E7 : 2.0037508342789244E7, -1.0987534604784733E7 : 1.0987534604784733E7]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 812
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@4874930, org.geoserver.wms.MapLayerInfo@c32fb437, org.geoserver.wms.MapLayerInfo@f4357d75, org.geoserver.wms.MapLayerInfo@42e80a94, org.geoserver.wms.MapLayerInfo@93c2af6d]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, FORMAT=image/png, CRS=EPSG:3857, BBOX=-20037508.342789244,-10987534.604784733,20037508.342789244,10987534.604784733, VERSION=1.3.0, STYLES=, SERVICE=WMS, WIDTH=1480, HEIGHT=812, TRANSPARENT=true, LAYERS=ne:world}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG::3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=ne:countries], StyleImpl[ name=ne:disputed], StyleImpl[ name=ne:coastline], StyleImpl[ name=ne:boundary_lines], StyleImpl[ name=ne:populated_places]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 1480

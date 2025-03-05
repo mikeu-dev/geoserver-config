@@ -75,4 +75,6 @@
   <remoteStyleMaxRequestTime>60000</remoteStyleMaxRequestTime>
   <remoteStyleTimeout>30000</remoteStyleTimeout>
   <defaultGroupStyleEnabled>true</defaultGroupStyleEnabled>
+  <transformFeatureInfoDisabled>false</transformFeatureInfoDisabled>
+  <autoEscapeTemplateValues>false</autoEscapeTemplateValues>
 </wms>
